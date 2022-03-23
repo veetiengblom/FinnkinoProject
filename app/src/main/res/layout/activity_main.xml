@@ -25,4 +25,35 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2ID"
+        android:layout_width="408dp"
+        android:layout_height="552dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPäivämäärä" />
+
+    <EditText
+        android:id="@+id/editTextPäivämäärä"
+        android:layout_width="200dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="Päivämäärä"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerID" />
+
+    <EditText
+        android:id="@+id/editTextKellonaika"
+        android:layout_width="200dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="Kellonaika"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerID" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
