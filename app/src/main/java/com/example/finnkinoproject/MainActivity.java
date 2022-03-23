@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     Spinner spinner;
     ArrayList<Theatre> theatre_array;
+    String mo;
 
 
     @Override
@@ -46,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+
 
             }
 
